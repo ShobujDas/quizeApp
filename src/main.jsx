@@ -2,17 +2,14 @@
 import React from 'react' 
 import ReactDOM from 'react-dom/client' 
 
-const TextDisplay = ({text}) => {
-  return (
-    <div>
-      <p>{text}</p>
-    </div>
-  );
-};
+import "./App.css"
+import App from './App';
+
+
 
 ReactDOM.createRoot(document.getElementById("root")).
 render(
   <React.StrictMode>
-    <TextDisplay text="Shobuj Das" />
+    <App/>
   </React.StrictMode>,
 );
